@@ -1,0 +1,8 @@
+{
+    "extends": ["html-validate:standard", "html-validate:document"],
+    "rules": {
+        "prefer-tbody": "off",
+        "no-trailing-whitespace": "off",
+        "element-case": "warn"
+    }
+}

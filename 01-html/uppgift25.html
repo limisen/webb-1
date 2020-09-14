@@ -9,12 +9,11 @@
 
 <body>
     <h1>Ladda rätt bild</h1>
-    <br>
     <picture>
-        <img src="Pictures/250x150.png" alt="Small picture" srcset="250x150.png 250w">
-
-        <img src="Pictures/450x150.png" alt="big picture" srcset="450x150.png 450w">
-
+        <source srcset="Pictures/450x150.png"
+                media="(min-width: 600px)">
+        <img src="Pictures/250x150.png" alt="">
+    </picture>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+h1 {
+    color: mediumvioletred;
+}
+
+p-1 {
+    word-spacing: normal;
+}
+
+p-2 {
+    word-spacing: -0.35rem;
+}
+
+p-3{
+    word-spacing: 1rem;
+}

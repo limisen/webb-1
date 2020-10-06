@@ -1,0 +1,15 @@
+h1{
+    font-family: monospace;
+}
+
+p-1{
+    letter-spacing: unset; color: turquoise;
+}
+
+p-2{
+    letter-spacing: -0.2rem; color: turquoise;
+}
+
+p-3{
+    letter-spacing: 0.25rem; color: turquoise;
+}

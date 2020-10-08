@@ -1,11 +1,9 @@
-p {
-    line-height: normal ; width: 25em
+p:first-child {
+    line-height: 300%;
+    width: 22rem;
 }
 
-first-paragraph {
-    line-height: 3em
-}
-
-sec-paragrap {
-    line-height: ? ; width: 25em;
+p:last-of-type {
+    line-height: 50%;
+    width: 22rem;
 }

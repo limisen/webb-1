@@ -1,0 +1,13 @@
+h1{
+    font-family: sans-serif;
+    color: navy;
+    font-variant: small-caps;
+}
+
+kbd {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 4px;
+    border-radius: 5px;
+}

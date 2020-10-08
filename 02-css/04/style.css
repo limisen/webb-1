@@ -1,7 +1,8 @@
-sec-word{
-    font-style: oblique; font-weight: lighter ;color: turquoise
+h1 i{
+    font-weight: normal;
+    color: cyan;
 }
 
-i{
-    font-style: cursive ;color: blueviolet;
+p i{
+    color: blueviolet;
 }

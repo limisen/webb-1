@@ -2,10 +2,6 @@ h1{
     font-family: 'Arial Narrow Bold', sans-serif;
 }
 
-p {
-    text-transform: capitalize, none;
-}
-
-p-1 {
+h1 + p{
     font-weight: bold;
 }

@@ -1,7 +1,7 @@
-span1 {
+span {
     background-color: green
 }
 
-span2{
+span:last-child{
     background-color: orange
 }

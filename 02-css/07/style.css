@@ -4,5 +4,6 @@ first-P {
 }
 
 sec-P{
-    text-transform: capitalize, none; font-variant: small-caps;
+    text-transform: capitalize; 
+    font-variant: small-caps;
 }

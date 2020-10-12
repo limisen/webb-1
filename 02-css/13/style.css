@@ -1,0 +1,9 @@
+p {
+    font-size: xx-large;
+}
+
+p:nth-child(2) sub{
+    font-style: italic;
+    color: blue;
+}
+

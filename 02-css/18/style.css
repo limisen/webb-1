@@ -1,0 +1,12 @@
+ol + li {
+    color: royalblue;
+}
+
+ol:first-of-type{
+    color: royalblue;
+}
+
+ul{
+    color: orange;
+    list-style-type: square;
+}

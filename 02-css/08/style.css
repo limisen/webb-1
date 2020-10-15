@@ -2,14 +2,14 @@ h1{
     font-family: monospace;
 }
 
-p-1{
+h1:first-of-type{
     letter-spacing: unset; color: turquoise;
 }
 
-p-2{
+h1 + h1{
     letter-spacing: -0.2rem; color: turquoise;
 }
 
-p-3{
+h1:last-of-type{
     letter-spacing: 0.25rem; color: turquoise;
 }

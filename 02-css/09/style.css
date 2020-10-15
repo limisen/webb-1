@@ -2,14 +2,14 @@ h1 {
     color: mediumvioletred;
 }
 
-p-1 {
+h1:first-of-type {
     word-spacing: normal;
 }
 
-p-2 {
+h1 + h1 {
     word-spacing: -0.35rem;
 }
 
-p-3{
+h1:last-of-type{
     word-spacing: 1rem;
 }

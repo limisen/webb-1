@@ -1,7 +1,11 @@
-del + em {
+p {
+    font-size: 1.4em;
+}
+
+ins{
     background-color: green;
 }
 
-em{
-    background-color: red;
+del{
+    background-color: crimson;
 }

@@ -1,4 +1,6 @@
 li {
     border-bottom: dashed;
     border-color: red;
+    width: 20em;
+    margin-bottom: 0.8em;
 }

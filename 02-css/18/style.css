@@ -4,9 +4,12 @@ ol + li {
 
 ol:first-of-type{
     color: royalblue;
+    font-weight: bold;
 }
 
 ul{
     color: orange;
     list-style-type: square;
+    margin-bottom: 1em;
+    font-weight: normal;
 }

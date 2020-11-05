@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border: solid 1px transparent;
+    padding: 3px;
+    width: 300px;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background-color: rgb(50, 63, 79);
+    border-bottom: 1px solid black;
+    padding: 3px;
+    width: 10px;
+}
+
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+    width: 10px;
+}
+
+tr + td:nth-of-type(2){
+    border-right: 1px solid transparent;
+}
+
+
+tr:nth-of-type(odd){
+    background-color: gray;
+}

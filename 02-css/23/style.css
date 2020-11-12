@@ -1,0 +1,33 @@
+body{
+    background: fixed url(pics/congruent_pentagon.png);
+}
+
+p{
+    text-anchor: initial;
+    padding: 3em;
+    padding-top: 0em;
+}
+
+p + p{
+    text-anchor: start;
+    margin-top: 70em;
+    padding: 3rem;
+}
+
+p + p + p{
+    text-anchor: middle;
+    margin-top: 70em;
+    padding: 3rem;
+}
+
+p+p+p+p{
+    text-anchor: middle;
+    margin-top: 70em;
+    padding: 3rem;
+}
+
+p+p+p+p+p{
+    text-anchor: end;
+    margin-top: 70em;
+    padding: 3em;
+}

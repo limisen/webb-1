@@ -1,13 +1,7 @@
-li:first-child{
+dt{
     color: red;
-    float: left;
 }
 
-li:last-child{
-    fl
-}
-
-ul{
-    list-style: none;
-    
+dd {
+    list-style-position: 100px;
 }

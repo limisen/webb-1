@@ -1,0 +1,20 @@
+li:nth-child(1){
+    list-style-image: url(pics/check.png);
+}
+
+li:nth-child(2){
+    list-style-image: url(pics/check.png);
+}
+
+li:nth-child(3){
+    list-style-image: url(pics/check.png);
+}
+
+li:nth-child(4){
+    list-style-image: url(pics/check.png);
+}
+
+
+li:last-child{
+    list-style-image: url(pics/cross.png);
+}

@@ -1,0 +1,10 @@
+ul{
+    padding: 4px;
+    border: solid black 4px;
+    list-style-type: none;
+    padding-bottom: 16px;
+}
+
+li:nth-child(1), li:nth-child(3){
+    font-weight: bold;
+}

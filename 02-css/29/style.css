@@ -1,7 +1,14 @@
+h1{
+    font-family: sans-serif;
+}
+
 dt{
     color: red;
+    float: left;
+    font-size: large;
+    font-weight: bold
 }
 
 dd {
-    list-style-position: 100px;
+    padding-left: 5.5em;
 }

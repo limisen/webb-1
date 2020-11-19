@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+    background-color: orange;
+    text-align: center;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+    padding: 1rem;
+    height: 10px;
+    width: 10px;
+    background-color: teal;
+}

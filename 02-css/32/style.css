@@ -1,0 +1,9 @@
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: turquoise;
+    border-radius: 6rem;
+    width: 6rem;
+    height: 6rem;
+}

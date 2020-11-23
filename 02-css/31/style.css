@@ -1,0 +1,26 @@
+th{
+    background-color: cornflowerblue;
+    text-align: left;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    border:cornflowerblue 1px solid;
+    width: 12rem;
+    padding: 3rem;
+}
+
+tr:nth-child(3), tr:nth-child(5){
+    background-color: lightgrey;
+}
+
+tr:hover{
+    background-color: orange;    
+}
+
+td{
+    border-left:cornflowerblue 1px solid;
+    border-bottom: cornflowerblue 1px solid;
+    padding: 4px;
+}

@@ -1,0 +1,9 @@
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: tomato;
+    border-radius: 1rem;
+    width: 9rem;
+    height: 9rem;
+}

@@ -1,0 +1,9 @@
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(112, 204, 216);
+    width: 9rem;
+    height: 9rem;
+    box-shadow: 8px 8px 6px gray;
+}

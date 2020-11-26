@@ -3,7 +3,7 @@ div {
     justify-content: center;
     align-content: center;
     background-color: tomato;
-    border-radius: 40rem;
-    width: 10rem;
-    height: 3rem;
+    border-radius: 100rem 100rem 100rem 100rem;
+    width: 6rem;
+    height: 5rem;
 }

@@ -1,0 +1,10 @@
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(112, 204, 216);
+    border-radius: 6rem;
+    width: 6rem;
+    height: 6rem;
+    box-shadow: 20px 16px 12px lightgrey;
+}

@@ -1,0 +1,16 @@
+1. Svar: ???
+2. Svar: 
+"flex-start" : 
+
+
+"flex-end" :
+
+
+"center" : 
+
+
+"space-around" : 
+
+
+"space-between" :
+

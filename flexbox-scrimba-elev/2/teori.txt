@@ -1,0 +1,3 @@
+1. Svar: Horisontelt
+2. Svar: Vertikalt
+3. Svar: Med kommandot "flex-direction" och sedan "row", "row-revearse", "column" eller "column-revearse"

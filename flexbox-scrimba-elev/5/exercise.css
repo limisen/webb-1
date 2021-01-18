@@ -1,0 +1,39 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+    display: flex;
+
+}
+
+.ex1 > div {
+    flex: 1;
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+    display: flex;
+    
+}
+
+.ex2 > .box1 {
+    flex: 2;
+}
+
+/*----------- EX 3 ----------*/
+.ex3 {
+    display: flex;
+    
+}
+
+.ex3 > .box1 {
+    flex: 3;
+}
+
+/*----------- EX 4 ----------*/
+.ex4 {
+    display: flex;
+    
+}
+
+.ex4 > .box2 {
+    flex: 2;
+}

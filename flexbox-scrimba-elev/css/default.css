@@ -1,0 +1,102 @@
+:root {
+    --container-color: #485460;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 5px solid ;
+    color: var(--container-color);
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.ex1, .ex2, .ex3, .ex4, .ex5, .ex6 {
+    position: relative;
+}
+
+.ex1::before {
+    content: ".ex1"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.ex2::before {
+    content: ".ex2"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.ex3::before {
+    content: ".ex3"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.ex4::before {
+    content: ".ex4"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.ex5::before {
+    content: ".ex5"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.ex6::before {
+    content: ".ex6"; 
+    position: absolute;
+    right: 5px;
+    top: -2.1rem;
+    font-size: 1.4rem;
+    color: var(--container-color);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box1 {
+    background-color: #ef5777;
+}
+
+.box2 {
+    background-color: #34e7e4;
+}
+
+.box3 {
+    background-color: #4bcffa;
+}
+
+.box4 {
+    background-color: #ffdd59;
+}
+
+.box5 {
+    background-color: #0be881;
+}

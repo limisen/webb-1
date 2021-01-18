@@ -1,0 +1,23 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------- EX 3 ----------*/
+.ex3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------- EX 4 ----------*/
+.ex4 {
+    display: flex;
+    justify-content: space-evenly;
+}

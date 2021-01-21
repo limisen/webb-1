@@ -1,18 +1,22 @@
 /*----------- EX 1 ----------*/
 .ex1 {
-
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
 }
 
 .ex1 > .box {
-
+    width: 300px;
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
-
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
 }
 
 .ex2 > .box {
-
+    width: 300px;
+    box-sizing: border-box; 
 }
-

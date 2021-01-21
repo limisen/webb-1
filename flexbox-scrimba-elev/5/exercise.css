@@ -1,7 +1,6 @@
 /*----------- EX 1 ----------*/
 .ex1 {
     display: flex;
-
 }
 
 .ex1 > div {
@@ -11,7 +10,10 @@
 /*----------- EX 2 ----------*/
 .ex2 {
     display: flex;
-    
+}
+
+.ex2 > .box2, .box3, .box4 {
+    flex: 1;
 }
 
 .ex2 > .box1 {
@@ -21,17 +23,23 @@
 /*----------- EX 3 ----------*/
 .ex3 {
     display: flex;
-    
 }
 
+.ex3 > .box2, .box3, .box4 {
+    flex: .5;
+}
 .ex3 > .box1 {
-    flex: 3;
+    flex: 8.5;
 }
 
 /*----------- EX 4 ----------*/
 .ex4 {
     display: flex;
     
+}
+
+.ex4 > .box1, .box3, .box4 {
+    flex: 1;
 }
 
 .ex4 > .box2 {

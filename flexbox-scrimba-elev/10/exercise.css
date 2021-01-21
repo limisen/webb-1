@@ -1,15 +1,55 @@
 /*----------- EX 1 ----------*/
 .ex1 {
+    display: flex;
+}
 
+.ex1 > .box1 {
+    order: 1;
+}
+
+.ex1 > .box2 {
+    order: 0;
+}
+
+.ex1 > .box3 {
+    order: -1;
+}
+
+.ex1 > .box4 {
+    order: -1;
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
+    display: flex;
+}
 
+.ex2 > div {
+    flex: 1;
+}
+
+.ex2 > .box4 {
+    order: -1;
 }
 
 /*----------- EX 3 ----------*/
 .ex3 {
     display: flex;
     flex-direction: column;
+}
+
+.ex3 > .box1 {
+    order: -2;
+}
+
+.ex3 > .box2 {
+    order: 2;
+}
+
+.ex3 > .box3 {
+    order: 0;
+}
+
+.ex3 > .box4 {
+    order: 1;
 }

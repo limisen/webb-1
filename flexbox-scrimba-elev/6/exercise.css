@@ -1,29 +1,45 @@
 /*----------- EX 1 ----------*/
 .ex1 {
     display: flex;
+    height: 150px;
 
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
     display: flex;
-    
+    height: 150px;
+    align-items: flex-start;
 }
 
 /*----------- EX 3 ----------*/
 .ex3 {
     display: flex;
-    
+    height: 150px;
+    align-items: center;
 }
 
 /*----------- EX 4 ----------*/
 .ex4 {
     display: flex;
-    
+    height: 150px;
+    align-items: flex-end
 }
 
 /*----------- EX 5 ----------*/
 .ex5 {
     display: flex;
-    
+    height: 150px;
+}
+
+.ex5 > .box2 {
+    align-self: start;
+}
+
+.ex5 > .box3 {
+    align-self: center;
+}
+
+.ex5 > .box4 {
+    align-self: flex-end;
 }

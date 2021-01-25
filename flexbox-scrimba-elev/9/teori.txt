@@ -1,0 +1,10 @@
+1. Svar: flex-basis, flex-grow och flex-shrink
+
+2. Svar: 
+flex-grow: 1; 
+flex-shrink: 0;
+flex-basis: 200px;
+
+3. Svar: 
+
+4. Svar: 

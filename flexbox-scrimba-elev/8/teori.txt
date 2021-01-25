@@ -1,0 +1,5 @@
+1. Svar: ...
+
+2. Svar: standard värdet är nowrap
+
+3. Svar: Då tillåter du objekt som inte får plats på raden att ta upp önskad plats på nästa rad.

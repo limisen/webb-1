@@ -1,0 +1,4 @@
+1. Svar: Om ett element är responsivt så kommer det att reagera efter vad och hur clienten interagerar med fönsteret. Till exempel om de ändrar storleken på fönsteret så kan det responsiva elementet justera hur det ser ut för att passa storleken och formen av fönsteret.
+
+2. Svar: Egenskapen för att påverka ett elements storleken heter "flex" vilket är en "short-hand" för 3 kommadon; flex-basis, flex-grow och flex-shrink.
+Man anger typ värde på dessa komandon genom att ge dem ett nummer 1, 2, 3,23 och så vidare. De angivna numrerna anger hur storleken på elementet ska påverkas.

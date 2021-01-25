@@ -1,3 +1,4 @@
 1. Svar: Horisontelt
 2. Svar: Vertikalt
-3. Svar: Med kommandot "flex-direction" och sedan "row", "row-revearse", "column" eller "column-revearse"
+3. Svar: Med kommandot "flex-direction" och sedan "row", "row-revearse", "column" eller "column-revearse".
+Komandot "flex-direction". Det kommadot ändrar åt vilket håll main-axis och cross-axis går. Till exempel så är main-axis lagd horisontelt från vänster till höger och cross-axis är vertical och går uppifrån ned som standard. Men om du setter flex-direction till column så kommer main axis att gå vertical, uppifrån och ned. Med cross axis vertical vänster till höger.

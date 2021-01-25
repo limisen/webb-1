@@ -1,0 +1,9 @@
+1. Svar: 
+
+2. Svar: align-item och align-self
+
+3. Svar:  
+
+4. Svar: genom att pecka till det individuella elementet och sedan sätta align-self till center och justify-content till center där med.
+
+5. Svar: align-self. Placera det under där du har peckat till det önskade objektet.

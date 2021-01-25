@@ -1,4 +1,4 @@
-1. Svar: ???
+1. Svar: flex-direction
 2. Svar: 
 "flex-start" : 
 

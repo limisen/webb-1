@@ -1,0 +1,3 @@
+1. Svar: order: 0;
+
+2. Svar: Ja, då hamnar det elementet först följt av det näst lägsta värdet. Om alla element har samma värde hamnar de efter varandra i ordning av hur de står i html-koden.

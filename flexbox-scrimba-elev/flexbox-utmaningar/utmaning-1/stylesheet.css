@@ -1,0 +1,25 @@
+.globalnav {
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.globalnav__list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.globalnav__listitem {
+
+}
+
+.globalnav__link {
+
+}
+
+.content {
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}

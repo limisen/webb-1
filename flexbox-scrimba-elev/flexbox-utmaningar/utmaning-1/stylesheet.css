@@ -21,10 +21,6 @@
     border-right: #485460;
 }
 
-.globalnav__listitem {
-    
-}
-
 .globalnav__link {
     text-decoration: none;
     color: white;
@@ -32,6 +28,7 @@
 
 ul {
     list-style: none;
+    border-right: #485460;
 }
 
 .content {

@@ -7,7 +7,6 @@
 
 .globalnav__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     
@@ -18,17 +17,27 @@
     border-right-width: 50px;
 
     background-color: #1e272e;
-    border-right: #485460;
+}
+
+.globalnav__listitem {
+
+    border-right: 10px solid #485460;
+}
+
+.globalnav__listitem:last-child {
+    border-right: none;
 }
 
 .globalnav__link {
     text-decoration: none;
     color: white;
+    
 }
 
 ul {
     list-style: none;
     border-right: #485460;
+    
 }
 
 .content {

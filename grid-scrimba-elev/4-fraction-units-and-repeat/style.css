@@ -1,14 +1,19 @@
 /*----------- EX 1 ----------*/
 .ex1 {
-
+    display: grid;
+    gap: 1rem;
+    grid-template: repeat(2, 1fr) / repeat(2, auto);
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
-
+    display: grid;
+    gap: 1rem;
+    grid-template: repeat(2, 1fr) / repeat(3, auto);
 }
 
 /*----------- EX 3 ----------*/
 .ex3 {
-    
+    display: grid;
+    grid-template: 1fr / 3fr 1fr 3fr 1fr;
 }

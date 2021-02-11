@@ -1,10 +1,13 @@
 /*----------- EX 1 ----------*/
 
 .ex1 {
-
+    display: grid;
+    gap: 1rem;
+    grid-template: 150px 150px / 150px 150px;
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
-
+    display: grid;
+    grid-template: 1fr 2fr / 50% 50%;
 }

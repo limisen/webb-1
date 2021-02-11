@@ -1,0 +1,11 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+
+}
+

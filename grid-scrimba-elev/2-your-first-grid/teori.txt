@@ -1,0 +1,7 @@
+1. Svar: Genom att skriva: display: grid;
+
+2. Svar: 
+
+3. Svar:
+
+4. Svar: Att det kommer att vara ett utrymme mellan elementen på 1 rem.

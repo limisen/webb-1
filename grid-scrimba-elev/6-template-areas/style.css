@@ -29,35 +29,38 @@
 
 .ex2 {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: repeat(4, auto-fit);
     grid-template-areas: 
     "a a a b"
     "c c d d"
     "e e d d"
-    "f f"
+    ". f f ."
     ;
 }
 
 .ex2 > .box1 {
-    grid-area: ;
+    grid-area: a;
 }
 
 .ex2 > .box2 {
-    grid-area: ;
+    grid-area: b;
 }
 
 .ex2 > .box3 {
-    grid-area: ;
+    grid-area: c;
 }
 
 .ex2 > .box4 {
-    grid-area: ;
+    grid-area: d;
 }
 
 .ex2 > .box5 {
-    grid-area: ;
+    grid-area: e;
 }
 
 .ex2 > .box6 {
-    grid-area: ;
+    grid-area: f;
 }
+
+/*Completed

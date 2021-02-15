@@ -1,5 +1,7 @@
 .ex1 {
-
+    display: grid;
+    
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-auto-rows: 200px;
 }
-
-
+/*Completed i think (feels like i 100% can improve this)

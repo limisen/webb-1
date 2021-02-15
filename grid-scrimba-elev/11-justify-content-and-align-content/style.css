@@ -1,14 +1,28 @@
 /*----------- EX 1 ----------*/
 .ex1 {
-
+    display: grid;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
 }
 
 /*----------- EX 2 ----------*/
 .ex2 {
+    display: grid;
+    height: 300px;
+}
 
+.ex2 > .box1, .box3, .box5{
+    justify-self: start;
+}
+
+.ex2 > .box2, .box4, .box6{
+    justify-self: end;
 }
 
 /*----------- EX 3 ----------*/
 .ex3 {
+    display: grid;
+    height: 300px;
 
 }

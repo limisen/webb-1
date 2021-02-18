@@ -1,6 +1,29 @@
 /*----------- EX 1 ----------*/
 .ex1 {
-
+    display: grid;
+    height: 600px;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    ;
+}
+.ex1 > .box1 {
+    width: 1fr;
+    justify-self: center;
+    align-self: center;
+    grid-area: a;
+}
+.ex1 > .box2 {
+    grid-area: b;
+}
+.ex1 > .box3 {
+    grid-area: c;
+}
+.ex1 > .box4 {
+    width: 1fr;
+    justify-self: center;
+    align-self: center;
+    grid-area: d;
 }
 
 .ex1 > .box1, .ex1 > .box4 {
@@ -9,26 +32,39 @@
 
 /*----------- EX 2 ----------*/
 .ex2 {
-
+    display: grid;
+    height: 600px;
+    grid-template-areas: 
+    "a . . . . . . . b"
+    ". . . . . . . . ."
+    ". . . . c . . . ."
+    ". . . . . . . . ."
+    "d . . . . . . . e"
+    ;
 }
 
 .ex2 > .box1 {
-
+    justify-self: center;
+    align-self: center;
+    grid-area: a;
 }
-
-
 .ex2 > .box2 {
-
+    justify-self: center;
+    align-self: center;
+    grid-area: b;
 }
-
 .ex2 > .box3 {
-
+    justify-self: center;
+    align-self: center;
+    grid-area: c;
 }
-
 .ex2 > .box4 {
-
+    justify-self: center;
+    align-self: center;
+    grid-area: d;
 }
-
 .ex2 > .box5 {
-
+    justify-self: center;
+    align-self: center;
+    grid-area: e;
 }

@@ -1,39 +1,36 @@
 /*----------- EX 1 ----------*/
 .ex1 {
     display: grid;
-    height: 600px;
-    grid-template-areas: 
-    "a b"
-    "c d"
+    height: 300px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: 
+    "a b b"
+    "c c b"
     ;
 }
-.ex1 > .box1 {
-    width: 1fr;
-    justify-self: center;
-    align-self: center;
-    grid-area: a;
+
+.ex1 > .box1{
+    grid-column: 1/4;
 }
-.ex1 > .box2 {
-    grid-area: b;
+.ex1 > .box2{
+    grid-column: 4/7;
 }
 .ex1 > .box3 {
-    grid-area: c;
+    grid-column: 1/4;
 }
-.ex1 > .box4 {
-    width: 1fr;
+    .ex1 > .box4{
+    grid-column: 4/7;
+}
+.ex1 > .box1, .ex1 > .box4 {
     justify-self: center;
     align-self: center;
-    grid-area: d;
-}
-
-.ex1 > .box1, .ex1 > .box4 {
-    
 } 
 
 /*----------- EX 2 ----------*/
 .ex2 {
     display: grid;
-    height: 600px;
+    height: 400px;
     grid-template-areas: 
     "a . . . . . . . b"
     ". . . . . . . . ."

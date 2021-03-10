@@ -1,14 +1,14 @@
 'use strict'
 
 function getQuote() {
-    let RandomNumber = Math.random() * quotes.length
-    let RandomNumberFloor = Math.floor(RandomNumber)
-    let quoteText = document.createElement("p")
-    let quoteName = document.createElement("p")
+    let randomNumber = Math.random() * quotes.length
+    let randomNumberFloor = Math.floor(randomNumber)
+    let quoteText = quotes[randomNumberFloor].quote
+    let quotename = quotes[randomNumberFloor].name
 
     return {
-        quote: quote,
-        name: name
+        quote: quoteText,
+        name: quotename
     }
 }
 
@@ -26,7 +26,7 @@ let quotes = [
     },
     {
         "quote": "Snöre på snöre!",
-        "name": " Knut"
+        "name": "Knut"
     },
     {
         "quote": "Dunder honung!",
@@ -53,24 +53,23 @@ let quotes = [
 let app = document.getElementById("citat")
 
 /* Create elements */
-//let RandomNumber = Math.random() * quotes.length
-//let RandomNumberFloor = Math.floor(RandomNumber)
-
-let quoteText = document.createElement("p")
-let quoteName = document.createElement("p")
+//let randomNumber = Math.random() * quotes.length
+//let randomNumberFloor = Math.floor(randomNumber)
 
 let quote = document.createElement("blockquote")
 quote.setAttribute("class", "citatet")
 
-/*
 let quoteText = document.createElement("p")
 let quoteName = document.createElement("p")
-*/
 
 /* Uppdatebutton */
 let updateButton = document.createElement("button")
 updateButton.textContent = ("Uppdatera")
 updateButton.setAttribute("class", "uppdatera")
+
+/* Set Elements in elements */
+//quoteText.textContent = quotes[randomNumberFloor].quote
+//quoteName.textContent = quotes[randomNumberFloor].name
 
 /*button function / EVENT Lyssnare */
 updateButton.addEventListener("click", function () {
@@ -79,10 +78,6 @@ updateButton.addEventListener("click", function () {
 
 /* Load on Doc.Load */
 window.onload = quoteLoader()
-
-/* Set Elements in elements */
-quoteText.textContent = quotes[RandomNumberFloor].quote
-quoteName.textContent = quotes[RandomNumberFloor].name
 
 /* Append the element */
 app.appendChild(updateButton)

@@ -6,9 +6,10 @@ function getQuote() {
     let quoteText = document.createElement("p")
     let quoteName = document.createElement("p")
 
-    return
-    quote : quote,
-    name ; name
+    return {
+        quote: quote,
+        name: name
+    }
 }
 
 function quoteLoader() {
@@ -20,58 +21,61 @@ function quoteLoader() {
 
 let quotes = [
     {
-        "quote" : "Kanoners!",
-        "name" : "Bosse"
+        "quote": "Kanoners!",
+        "name": "Bosse"
     },
     {
-        "quote" : "Snöre på snöre!",
-        "name" : " Knut"
+        "quote": "Snöre på snöre!",
+        "name": " Knut"
     },
     {
-        "quote" : "Dunder honung!",
-        "name" : "Bamse"
+        "quote": "Dunder honung!",
+        "name": "Bamse"
     },
     {
-        "quote" : "quack, quack!",
-        "name" : "Kalle"
+        "quote": "quack, quack!",
+        "name": "Kalle"
     },
     {
-        "quote" : "Attans!",
-        "name" : "Rasmus"
+        "quote": "Attans!",
+        "name": "Rasmus"
     },
     {
-        "quote" : "Tjena keks-helvete vill du knulla!",
-        "name" : "Nicke"
+        "quote": "Tjena keks-helvete vill du knulla!",
+        "name": "Nicke"
     },
     {
-        "quote" : "Beatsaber 500 squat challange",
-        "name" : "Jesper"
+        "quote": "Beatsaber 500 squat challange",
+        "name": "Jesper"
     },
 ]
 /* Get elements for quotes */
 let app = document.getElementById("citat")
 
 /* Create elements */
-/*let RandomNumber = Math.random() * quotes.length
-let RandomNumberFloor = Math.floor(RandomNumber)
-*/
+//let RandomNumber = Math.random() * quotes.length
+//let RandomNumberFloor = Math.floor(RandomNumber)
+
+let quoteText = document.createElement("p")
+let quoteName = document.createElement("p")
 
 let quote = document.createElement("blockquote")
 quote.setAttribute("class", "citatet")
+
 /*
 let quoteText = document.createElement("p")
 let quoteName = document.createElement("p")
 */
+
 /* Uppdatebutton */
 let updateButton = document.createElement("button")
 updateButton.textContent = ("Uppdatera")
 updateButton.setAttribute("class", "uppdatera")
 
-/*button function */
-updateButton.addEventListener("click", function(){
+/*button function / EVENT Lyssnare */
+updateButton.addEventListener("click", function () {
     quoteLoader()
-    }
-)
+})
 
 /* Load on Doc.Load */
 window.onload = quoteLoader()

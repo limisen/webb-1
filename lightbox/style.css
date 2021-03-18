@@ -1,0 +1,45 @@
+body {
+    background-color: #6c7a89;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {  
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;  
+}
+
+.galleri {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+    gap: 2rem 3.5rem;
+}
+
+.galleri img {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.3s; 
+}
+
+.galleri img:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) rotate(2deg);
+    transition: 0.3s;
+}
+
+.galleri a:nth-child(odd) img:hover {
+    transform: scale(1.1) rotate(-2deg);
+}

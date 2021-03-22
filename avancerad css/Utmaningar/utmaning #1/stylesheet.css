@@ -1,0 +1,27 @@
+.body {
+    grid-template-areas:
+    "Header Header Header"
+    "repositories Content Sidebar"
+    "repositories Footer Footer"
+    ;
+}
+
+.header {
+    grid-area: Header;
+}
+
+.nav {
+    grid-area: repositories;
+}
+
+.div {
+    grid-area: Content;
+}
+
+.aside {
+    grid-area: Sidebar;
+}
+
+.footer {
+    grid-area: Footer;
+}

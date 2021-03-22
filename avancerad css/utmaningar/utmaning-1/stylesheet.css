@@ -1,4 +1,9 @@
 .body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
     grid-template-areas:
     "Header Header Header"
     "repositories Content Sidebar"
@@ -7,21 +12,30 @@
 }
 
 .header {
+    background-color: #24292e;
+    color: aliceblue;
     grid-area: Header;
+    grid: 1fr;
 }
 
 .nav {
+    background-color: #f6f8fa;
     grid-area: repositories;
+    grid: 2fr;
 }
 
 .div {
+    background-color: #eaecee;
     grid-area: Content;
+    grid: 2fr;
 }
 
 .aside {
     grid-area: Sidebar;
+    grid: 2fr;
 }
 
 .footer {
     grid-area: Footer;
+    grid: auto;
 }

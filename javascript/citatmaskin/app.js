@@ -48,6 +48,10 @@ let quotes = [
         "quote": "Beatsaber 500 squat challange",
         "name": "Jesper"
     },
+    {
+        "quote": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "name": "Sam"
+    }
 ]
 /* Get elements for quotes */
 let app = document.getElementById("citat")

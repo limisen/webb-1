@@ -5,3 +5,4 @@ Idée: Realaterat till actuella intressen till exempel pc spel, serier med mera.
 
 Måste ha med javascript integrerat till sidan. Måste dokumenteras väl. Till exempel skulle några javascript kunna vara effekt skript som får sidan att värka mer levande.
 
+Tänk på att ha med källor samt annan hänvisning för använt matterial
